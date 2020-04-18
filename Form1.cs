@@ -30,12 +30,19 @@ namespace Jumble
         private void readFileWord5()
         {
             StreamReader readFile;
-            readFile = File.OpenText("word5.txt");
-            string word = "";
-            while (!readFile.EndOfStream)
+            try
             {
-                word = readFile.ReadLine();
-                word5List.Add(word);
+                readFile = File.OpenText("word5.txt");
+                string word = "";
+                while (!readFile.EndOfStream)
+                {
+                    word = readFile.ReadLine();
+                    word5List.Add(word);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -43,12 +50,19 @@ namespace Jumble
         private void readFileWord6()
         {
             StreamReader readFile;
-            readFile = File.OpenText("word6.txt");
-            string word = "";
-            while (!readFile.EndOfStream)
+            try
             {
-                word = readFile.ReadLine();
-                word6List.Add(word);
+                readFile = File.OpenText("word6.txt");
+                string word = "";
+                while (!readFile.EndOfStream)
+                {
+                    word = readFile.ReadLine();
+                    word6List.Add(word);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
 
