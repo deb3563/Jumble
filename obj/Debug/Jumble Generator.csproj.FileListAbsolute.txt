@@ -1,0 +1,10 @@
+C:\Users\djbean\source\repos\Jumble Generator\obj\Debug\Jumble Generator.csprojAssemblyReference.cache
+C:\Users\djbean\source\repos\Jumble Generator\obj\Debug\Jumble_Generator.Form1.resources
+C:\Users\djbean\source\repos\Jumble Generator\obj\Debug\Jumble_Generator.Properties.Resources.resources
+C:\Users\djbean\source\repos\Jumble Generator\obj\Debug\Jumble Generator.csproj.GenerateResource.cache
+C:\Users\djbean\source\repos\Jumble Generator\obj\Debug\Jumble Generator.csproj.CoreCompileInputs.cache
+C:\Users\djbean\source\repos\Jumble Generator\bin\Debug\Jumble Generator.exe.config
+C:\Users\djbean\source\repos\Jumble Generator\bin\Debug\Jumble Generator.exe
+C:\Users\djbean\source\repos\Jumble Generator\bin\Debug\Jumble Generator.pdb
+C:\Users\djbean\source\repos\Jumble Generator\obj\Debug\Jumble Generator.exe
+C:\Users\djbean\source\repos\Jumble Generator\obj\Debug\Jumble Generator.pdb
