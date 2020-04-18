@@ -1,0 +1,20 @@
+C:\Users\djbean\source\repos\djbean3563\JumbleGeneratorDatabase\obj\Debug\Jumble.csprojAssemblyReference.cache
+C:\Users\djbean\source\repos\djbean3563\JumbleGeneratorDatabase\obj\Debug\Jumble_Generator.Properties.Resources.resources
+C:\Users\djbean\source\repos\djbean3563\JumbleGeneratorDatabase\obj\Debug\Jumble.csproj.GenerateResource.cache
+C:\Users\djbean\source\repos\djbean3563\JumbleGeneratorDatabase\obj\Debug\Jumble.csproj.CoreCompileInputs.cache
+C:\Users\djbean\source\repos\djbean3563\JumbleGeneratorDatabase\obj\Debug\Jumble Generator.exe
+C:\Users\djbean\source\repos\djbean3563\JumbleGeneratorDatabase\obj\Debug\Jumble Generator.pdb
+C:\Users\djbean\source\repos\djbean3563\JumbleGeneratorDatabase\bin\Debug\Jumble Generator.exe.config
+C:\Users\djbean\source\repos\djbean3563\JumbleGeneratorDatabase\bin\Debug\Jumble Generator.exe
+C:\Users\djbean\source\repos\djbean3563\JumbleGeneratorDatabase\bin\Debug\Jumble Generator.pdb
+C:\Users\djbean\source\repos\djbean3563\JumbleGeneratorDatabase\obj\Debug\Jumble.Form1.resources
+C:\Users\djbean\source\repos\djbean3563\Jumble\bin\Debug\Jumble Generator.exe.config
+C:\Users\djbean\source\repos\djbean3563\Jumble\bin\Debug\Jumble Generator.exe
+C:\Users\djbean\source\repos\djbean3563\Jumble\bin\Debug\Jumble Generator.pdb
+C:\Users\djbean\source\repos\djbean3563\Jumble\obj\Debug\Jumble.csprojAssemblyReference.cache
+C:\Users\djbean\source\repos\djbean3563\Jumble\obj\Debug\Jumble.Form1.resources
+C:\Users\djbean\source\repos\djbean3563\Jumble\obj\Debug\Jumble_Generator.Properties.Resources.resources
+C:\Users\djbean\source\repos\djbean3563\Jumble\obj\Debug\Jumble.csproj.GenerateResource.cache
+C:\Users\djbean\source\repos\djbean3563\Jumble\obj\Debug\Jumble.csproj.CoreCompileInputs.cache
+C:\Users\djbean\source\repos\djbean3563\Jumble\obj\Debug\Jumble Generator.exe
+C:\Users\djbean\source\repos\djbean3563\Jumble\obj\Debug\Jumble Generator.pdb
