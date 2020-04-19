@@ -44,8 +44,8 @@
             this.player1Label = new System.Windows.Forms.Label();
             this.player2Label = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.clearButton = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.sizeGroup.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -56,7 +56,7 @@
             // 
             this.letters.AutoSize = true;
             this.letters.Font = new System.Drawing.Font("Microsoft Sans Serif", 200F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letters.Location = new System.Drawing.Point(393, 125);
+            this.letters.Location = new System.Drawing.Point(388, 22);
             this.letters.Name = "letters";
             this.letters.Size = new System.Drawing.Size(1137, 378);
             this.letters.TabIndex = 0;
@@ -66,7 +66,7 @@
             // 
             this.answerBox.AutoSize = true;
             this.answerBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 95F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.answerBox.Location = new System.Drawing.Point(437, 550);
+            this.answerBox.Location = new System.Drawing.Point(439, 423);
             this.answerBox.Name = "answerBox";
             this.answerBox.Size = new System.Drawing.Size(369, 180);
             this.answerBox.TabIndex = 1;
@@ -77,7 +77,7 @@
             // 
             this.getJumble.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.getJumble.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.getJumble.Location = new System.Drawing.Point(357, 32);
+            this.getJumble.Location = new System.Drawing.Point(388, 692);
             this.getJumble.Name = "getJumble";
             this.getJumble.Padding = new System.Windows.Forms.Padding(10);
             this.getJumble.Size = new System.Drawing.Size(295, 82);
@@ -90,9 +90,9 @@
             // 
             this.answer.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.answer.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.answer.Location = new System.Drawing.Point(895, 36);
+            this.answer.Location = new System.Drawing.Point(781, 692);
             this.answer.Name = "answer";
-            this.answer.Size = new System.Drawing.Size(271, 74);
+            this.answer.Size = new System.Drawing.Size(271, 82);
             this.answer.TabIndex = 3;
             this.answer.Text = "ANSWER";
             this.answer.UseVisualStyleBackColor = false;
@@ -113,7 +113,7 @@
             this.sizeGroup.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.sizeGroup.Controls.Add(this.sixButton);
             this.sizeGroup.Controls.Add(this.fiveButton);
-            this.sizeGroup.Location = new System.Drawing.Point(10, 11);
+            this.sizeGroup.Location = new System.Drawing.Point(12, 12);
             this.sizeGroup.Name = "sizeGroup";
             this.sizeGroup.Size = new System.Drawing.Size(178, 80);
             this.sizeGroup.TabIndex = 5;
@@ -166,7 +166,7 @@
             // 
             this.player1AddButto.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.player1AddButto.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1AddButto.Location = new System.Drawing.Point(14, 189);
+            this.player1AddButto.Location = new System.Drawing.Point(14, 136);
             this.player1AddButto.Name = "player1AddButto";
             this.player1AddButto.Size = new System.Drawing.Size(131, 72);
             this.player1AddButto.TabIndex = 8;
@@ -178,7 +178,7 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(175, 189);
+            this.button1.Location = new System.Drawing.Point(175, 136);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(131, 72);
             this.button1.TabIndex = 9;
@@ -190,7 +190,7 @@
             // 
             this.player1Label.AutoSize = true;
             this.player1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Label.Location = new System.Drawing.Point(53, 98);
+            this.player1Label.Location = new System.Drawing.Point(47, 66);
             this.player1Label.Name = "player1Label";
             this.player1Label.Size = new System.Drawing.Size(62, 67);
             this.player1Label.TabIndex = 10;
@@ -200,7 +200,7 @@
             // 
             this.player2Label.AutoSize = true;
             this.player2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player2Label.Location = new System.Drawing.Point(203, 98);
+            this.player2Label.Location = new System.Drawing.Point(207, 66);
             this.player2Label.Name = "player2Label";
             this.player2Label.Size = new System.Drawing.Size(62, 67);
             this.player2Label.TabIndex = 11;
@@ -219,29 +219,29 @@
             this.panel1.Controls.Add(this.player1Box);
             this.panel1.Location = new System.Drawing.Point(46, 316);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(325, 354);
+            this.panel1.Size = new System.Drawing.Size(323, 306);
             this.panel1.TabIndex = 12;
-            // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.sizeGroup);
-            this.panel2.Location = new System.Drawing.Point(671, 23);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(198, 99);
-            this.panel2.TabIndex = 13;
             // 
             // clearButton
             // 
             this.clearButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.clearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clearButton.Location = new System.Drawing.Point(89, 267);
+            this.clearButton.Location = new System.Drawing.Point(95, 214);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(131, 72);
             this.clearButton.TabIndex = 12;
             this.clearButton.Text = "CLEAR";
             this.clearButton.UseVisualStyleBackColor = false;
             this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.sizeGroup);
+            this.panel2.Location = new System.Drawing.Point(108, 687);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(208, 107);
+            this.panel2.TabIndex = 13;
             // 
             // Form1
             // 
