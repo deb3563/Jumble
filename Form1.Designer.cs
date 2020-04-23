@@ -55,6 +55,7 @@
             // letters
             // 
             this.letters.AutoSize = true;
+            this.letters.BackColor = System.Drawing.Color.Transparent;
             this.letters.Font = new System.Drawing.Font("Microsoft Sans Serif", 200F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letters.Location = new System.Drawing.Point(388, 22);
             this.letters.Name = "letters";
@@ -65,6 +66,7 @@
             // answerBox
             // 
             this.answerBox.AutoSize = true;
+            this.answerBox.BackColor = System.Drawing.Color.Transparent;
             this.answerBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 95F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answerBox.Location = new System.Drawing.Point(439, 423);
             this.answerBox.Name = "answerBox";
@@ -100,6 +102,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(106, 32);
             this.pictureBox1.Name = "pictureBox1";
@@ -248,6 +251,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1741, 815);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
