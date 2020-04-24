@@ -102,51 +102,72 @@ namespace Jumble
         //get a jumbled word
         private void getJumble_Click(object sender, EventArgs e)
         {
-            answerBox.Visible = false;
-            string word = "";
-            if (fiveButton.Checked)
+            if (answerBox.Visible) //Get Jumble
             {
-                word = getWord(word5List);
-                answerBox.Text = word;
+                answerBox.Visible = false;
+                string word = "";
+                if (fiveButton.Checked)
+                {
+                    word = getWord(word5List);
+                    answerBox.Text = word;
+                }
+                else
+                {
+                    word = getWord(word6List);
+                    answerBox.Text = word;
+                }
+                letters.Text = jumble(word);
+                getJumble.Text = "Show Answer"; //change the button text
             }
-            else
+            else //Show answer
             {
-                word = getWord(word6List);
-                answerBox.Text = word;
-
+                answerBox.Visible = true;
+                getJumble.Text = "Get Jumble"; //change the button text
             }
-            letters.Text = jumble(word);
         }
 
-        //show the answer
-        private void answer_Click(object sender, EventArgs e)
-        {
-            answerBox.Visible = true;
-        }
 
         //add a point for player1
         private void player1AddButto_Click(object sender, EventArgs e)
         {
-            int count = int.Parse(player1Label.Text);
-            count++;
-            player1Label.Text = count.ToString();
+
+                int count = int.Parse(player1Label.Text);
+                count++;
+                player1Label.Text = count.ToString();
         }
 
         //add a point for player2
         private void button1_Click(object sender, EventArgs e)
         {
-            int count = int.Parse(player2Label.Text);
-            count++;
-            player2Label.Text = count.ToString();
+                int count = int.Parse(player2Label.Text);
+                count++;
+                player2Label.Text = count.ToString();
         }
+
+      
+
 
         //clear player points and all labels
         private void clearButton_Click(object sender, EventArgs e)
         {
             player2Label.Text = "0";
             player1Label.Text = "0";
-            letters.Text = "";
-            answerBox.Text = "";
+        }
+
+        //remove a point from player1
+        private void player1Label_Click(object sender, EventArgs e)
+        {
+            int count = int.Parse(player1Label.Text);
+            count--;
+            player1Label.Text = count.ToString();
+        }
+
+        //remove a point from player2
+        private void player2Label_Click(object sender, EventArgs e)
+        {
+            int count = int.Parse(player2Label.Text);
+            count--;
+            player2Label.Text = count.ToString();
         }
     }
 }
